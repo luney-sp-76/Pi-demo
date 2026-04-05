@@ -27,7 +27,7 @@ interface Environment {
 }
 
 const env: Environment = {
-  port: parseInt(process.env.PORT || "8000"),
+  port: parseInt(process.env.PORT || "5000"),
   session_secret: process.env.SESSION_SECRET || "This is my session secret",
   pi_api_key: process.env.PI_API_KEY || "",
   platform_api_url: process.env.PLATFORM_API_URL || "",
